@@ -2,15 +2,101 @@ body {
   padding:50px;
   display:flex;
   justify-content: center;
+  background-color: #133A4C;
 }
 
 .categories-container{
   display: flex;
   justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
 }
 
-.categroy-container{
+.category-container{
+  padding: 20px;
   display: flex;
-  justify-content: center;
+  width: 300px;
   flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  background-color: #fafafa;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
+ button{
+  font-size: 16px;
+  outline: none;
+  border: 0;
+  padding: 20px;
+  background-color:  rgb(10, 34, 46);
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border: 1px solid  rgba(15,46,61);
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 1px 2px;
+}
+button:hover{
+  background-color: #fafafa;
+  color: #000;
+}
+
+button:active{
+  transform: translateY(5px);
+  -webkit-transform: translateY(5px);
+  -moz-transform: translateY(5px);
+  -ms-transform: translateY(5px);
+  -o-transform: translateY(5px);
+}
+
+.cart-item-container{
+  padding: 20px;
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  background-color: #fafafa;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.title{
+  text-align: center;
+  color:#fff ;
+  font-size: 70px;
+  font-family: "Bigelow Rules", serif;
+  letter-spacing:2px;
+  
+}
+
+.carts-container{
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  }
+  .clear{
+    margin: auto;
+    background-color: #fafafa;
+    color: #000;
+  }
